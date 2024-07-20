@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing import image
 model = tf.keras.models.load_model('modelo_classificacao_pan.keras')
 
 # Caminho da imagem a ser testada
-test_image_path = 'C:/Users/Siraissi/Pictures/Figura-5-Radiografia-periapical-pos-obturacao-dos-dentes-11-e-12-A-e-21-e-22-B.png'
+test_image_path = 'C:/Users/Siraissi/Pictures/OCLUSAL1-495x400.jpg'
 
 # Carregar e pré-processar a imagem
 img_width, img_height = 150, 150  # Deve ser o mesmo tamanho usado no treinamento
